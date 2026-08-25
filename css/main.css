@@ -110,7 +110,8 @@ nav {
 .nav-links a:focus-visible,
 .nav-links a:visited:hover,
 .nav-links a.active {
-  color: var(--accent);
+  color: var(--ink) !important;
+  font-weight: 700;
 }
 
 .nav-links a:hover::after,
